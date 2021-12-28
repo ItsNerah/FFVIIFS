@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 54.1319, 55.0363, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.28017, Y=0.762936, Z=11.3851 }
+    BoxExtent = { X=65.9998, Y=62.5484, Z=16.8369 }
+    SphereRadius = 76.3716
+}

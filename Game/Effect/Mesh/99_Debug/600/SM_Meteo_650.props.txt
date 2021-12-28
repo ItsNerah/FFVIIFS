@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+    Materials[1] = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+    Materials[2] = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+        MaterialSlotName = lambert5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 57.9108, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.2528, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+        MaterialSlotName = lambert4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 37.3903, 12.7249, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.7152, Y=-3.8147e-06, Z=-2.86102e-06 }
+    BoxExtent = { X=20.4483, Y=12.3303, Z=12.3982 }
+    SphereRadius = 20.4786
+}

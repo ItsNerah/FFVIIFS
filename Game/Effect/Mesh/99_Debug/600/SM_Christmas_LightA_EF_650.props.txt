@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effect/Mesh/lambert1.lambert1'
+        MaterialSlotName = MI_Christmas_SeventhHeavenA_LightA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 301.627, 19.7754, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.05176e-05, Y=3.05176e-05, Z=42 }
+    BoxExtent = { X=289.074, Y=441.404, Z=36.5611 }
+    SphereRadius = 528.868
+}

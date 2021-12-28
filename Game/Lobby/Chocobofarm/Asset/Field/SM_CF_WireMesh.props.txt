@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WireMesh.MI_CF_WireMesh'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WireMesh_P.MI_CF_WireMesh_P'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WireMesh.MI_CF_WireMesh'
+        MaterialSlotName = MI_CF_WireMesh
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1269.04, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WireMesh_P.MI_CF_WireMesh_P'
+        MaterialSlotName = MI_CF_WireMesh_P
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 585.45, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-38.5147, Y=-0.823837, Z=222.561 }
+    BoxExtent = { X=44.8183, Y=160.549, Z=247.561 }
+    SphereRadius = 298.448
+}

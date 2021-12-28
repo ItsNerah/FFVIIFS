@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_StadiumLightA.MI_CF_StadiumLightA'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_StadiumLightB.MI_CF_StadiumLightB'
+    Materials[2] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_StadiumLightC.MI_CF_StadiumLightC'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_StadiumLightA.MI_CF_StadiumLightA'
+        MaterialSlotName = MI_CF_StadiumLightA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 680.439, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_StadiumLightB.MI_CF_StadiumLightB'
+        MaterialSlotName = MI_CF_StadiumLightB
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1187.88, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_StadiumLightC.MI_CF_StadiumLightC'
+        MaterialSlotName = MI_CF_StadiumLightC
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 251.795, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-14.0967, Y=-0.00012207, Z=1931.84 }
+    BoxExtent = { X=333.604, Y=679.645, Z=1981.84 }
+    SphereRadius = 2082.08
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_SteelTowerA_1.MI_CF_SteelTowerA_1'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_SteelTowerA_2.MI_CF_SteelTowerA_2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_SteelTowerA_1.MI_CF_SteelTowerA_1'
+        MaterialSlotName = MI_CF_SteelTowerA_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 436.202, 596.112, 6401.48, 9703.14 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_SteelTowerA_2.MI_CF_SteelTowerA_2'
+        MaterialSlotName = MI_CF_SteelTowerA_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2266.48, 0, 0, 10105.8 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.70062, Y=0, Z=1596.35 }
+    BoxExtent = { X=884.911, Y=478.678, Z=1596.35 }
+    SphereRadius = 1734.3
+}

@@ -1,0 +1,5 @@
+Diffuse=T_MaskBlack
+Normal=T_Normal
+Other[0]=FullBody_Head_M
+Other[1]=FullBody_Head_N
+Other[2]=T_MaskWhite

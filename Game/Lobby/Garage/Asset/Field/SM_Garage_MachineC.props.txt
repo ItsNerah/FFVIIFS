@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineC.MI_Garage_MachineC'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineC.MI_Garage_MachineC'
+        MaterialSlotName = MI_Garage_MachineC
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 444.696, 624.008, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.54959, Y=1.52588e-05, Z=114.4 }
+    BoxExtent = { X=45.1111, Y=113.959, Z=114.4 }
+    SphereRadius = 167.658
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_Cradle.Ml_CF_Cradle'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_Cradle.Ml_CF_Cradle'
+        MaterialSlotName = M_BR62003000_cradle
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.1018, 80.5669, 150.766, 294.479 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.28477, Y=-1.80156, Z=10.1855 }
+    BoxExtent = { X=38.4523, Y=35.824, Z=12.0985 }
+    SphereRadius = 41.4877
+}

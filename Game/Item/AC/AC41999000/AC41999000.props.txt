@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Item/AC/AC41999000/MI_AC41999000.MI_AC41999000'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Item/AC/AC41999000/MI_AC41999000.MI_AC41999000'
+        MaterialSlotName = MI_77203002_BackAccessory
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 39.0844, 149.831, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.8147e-06, Y=-0.744631, Z=17 }
+    BoxExtent = { X=16.8168, Y=17.6496, Z=17.0054 }
+    SphereRadius = 26.7581
+}

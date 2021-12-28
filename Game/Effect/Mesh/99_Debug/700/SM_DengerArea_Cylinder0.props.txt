@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Effect/Material/02_MC/24_Use/MC_FrMul_CA_tl2Soft_DangerArea700.MC_FrMul_CA_tl2Soft_DangerArea700'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Effect/Material/02_MC/24_Use/MC_FrMul_CA_tl2Soft_DangerArea700.MC_FrMul_CA_tl2Soft_DangerArea700'
+        MaterialSlotName = UVCheckerMap01_1024_1Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 118797, 120784, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0507812, Y=-0.0546875, Z=16518.4 }
+    BoxExtent = { X=50000.1, Y=49989.1, Z=20005 }
+    SphereRadius = 53853.8
+}

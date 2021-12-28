@@ -1,0 +1,4 @@
+Diffuse=T_White
+Opacity=SQ_grow_002
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture

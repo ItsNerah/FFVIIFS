@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_Atlas_304.MI_CF_Atlas_304'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_Atlas_304.MI_CF_Atlas_304'
+        MaterialSlotName = MI_CF_Atlas_304
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 596.007, 1138.57, 437.714, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=60 }
+    BoxExtent = { X=82.5, Y=82.5, Z=60 }
+    SphereRadius = 131.196
+}

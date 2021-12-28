@@ -1,0 +1,143 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=FresnelExp }
+                    ParameterInfos[1] = { Name=LightRateIntensity }
+                    ParameterInfos[2] = { Name=FadeDistanceMin }
+                    ParameterInfos[3] = { Name=MpcRate }
+                    ParameterInfos[4] = { Name=EmissiveMax }
+                    ParameterInfos[5] = { Name=EmissiveDistanceMax }
+                    ParameterInfos[6] = { Name=NomalEdgeRate }
+                    ParameterInfos[7] = { Name=NormalEdgeMax }
+                    ParameterInfos[8] = { Name=FadeDistanceMax }
+                    ParameterInfos[9] = { Name=EmissiveDistanceMin }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=FresnelColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=C }
+                    ParameterInfos[2] = { Name=MR }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 1.8, 1, 0, 1, 1, 3000, 20, 0.3, 4000, 1500 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = MR
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1.8, Name=FresnelExp, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=FadeDistanceMin, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EmissiveMax, Group=None }
+    CollectedScalarParameters[5] = { Value=3000, Name=EmissiveDistanceMax, Group=None }
+    CollectedScalarParameters[6] = { Value=20, Name=NomalEdgeRate, Group=None }
+    CollectedScalarParameters[7] = { Value=0.3, Name=NormalEdgeMax, Group=None }
+    CollectedScalarParameters[8] = { Value=4000, Name=FadeDistanceMax, Group=None }
+    CollectedScalarParameters[9] = { Value=1500, Name=EmissiveDistanceMin, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskBlack
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskWhite
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Normal
+    }
+}

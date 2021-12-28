@@ -1,0 +1,4 @@
+Diffuse=T_Dust600
+Opacity=T_LineGradientClamp501
+Other[0]=T_LineGradient002
+Other[1]=T_White

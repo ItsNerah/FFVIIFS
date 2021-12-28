@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Item/LUX/LUX65401001/MI_LUX65401001.MI_LUX65401001'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Item/LUX/LUX65401001/MI_LUX65401001.MI_LUX65401001'
+        MaterialSlotName = M_LUX65401001
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 29.8738, 44.0403, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.464437, Y=0, Z=0.00142479 }
+    BoxExtent = { X=9.01359, Y=2.44148, Z=21.1649 }
+    SphereRadius = 21.4551
+}

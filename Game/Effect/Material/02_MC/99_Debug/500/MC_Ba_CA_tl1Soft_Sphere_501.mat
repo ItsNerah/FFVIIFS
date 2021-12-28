@@ -1,0 +1,5 @@
+Diffuse=T_ComSphere101
+Opacity=T_MirrorSphere000
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture
+Other[2]=T_White

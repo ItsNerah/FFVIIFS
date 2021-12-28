@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_Grass_JK.MI_CF_Grass_JK'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_Grass_JK.MI_CF_Grass_JK'
+        MaterialSlotName = MI_CF_Grass_JK
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 144.221, 182.097, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-8.69436, Y=-4.50411, Z=35.3426 }
+    BoxExtent = { X=54.3063, Y=63.0851, Z=63.5573 }
+    SphereRadius = 91.0322
+}

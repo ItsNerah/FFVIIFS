@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_Sky.MI_CF_Sky'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_Sky.MI_CF_Sky'
+        MaterialSlotName = MI_CF_Sky
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.82938e+06, 6.26988e+06, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.125, Y=-0.25, Z=477702 }
+    BoxExtent = { X=1.23208e+06, Y=1.23208e+06, Z=771016 }
+    SphereRadius = 1.44923e+06
+}

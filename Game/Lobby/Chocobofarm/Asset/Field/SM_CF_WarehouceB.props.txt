@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_WarehouseB_1.Ml_CF_WarehouseB_1'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_WarehouseB_2.Ml_CF_WarehouseB_2'
+    Materials[2] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_WarehouseB_3.Ml_CF_WarehouseB_3'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_WarehouseB_1.Ml_CF_WarehouseB_1'
+        MaterialSlotName = Ml_CF_WarehouseB_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2615.73, 9232.91, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_WarehouseB_2.Ml_CF_WarehouseB_2'
+        MaterialSlotName = Ml_CF_WarehouseB_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2376.52, 9299.35, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/Ml_CF_WarehouseB_3.Ml_CF_WarehouseB_3'
+        MaterialSlotName = Ml_CF_WarehouseB_3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2855.51, 9049.01, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=2.38574, Z=662.441 }
+    BoxExtent = { X=958.046, Y=1526.39, Z=662.441 }
+    SphereRadius = 1920.03
+}

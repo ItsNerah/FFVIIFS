@@ -1,0 +1,6 @@
+Diffuse=MO10009_Barrier_C
+Normal=T_Normal
+Other[0]=MO10009_Barrier_Mask
+Other[1]=MO10009_C
+Other[2]=MO10009_M
+Other[3]=UVscroll_noise

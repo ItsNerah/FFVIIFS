@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_BigPipeL.MI_Garage_BigPipeL'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_BigPipeL.MI_Garage_BigPipeL'
+        MaterialSlotName = lambert3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1602.66, 8602.41, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2070, Y=-6.10352e-05, Z=356.183 }
+    BoxExtent = { X=2268, Y=252.178, Z=456.183 }
+    SphereRadius = 2295.78
+}

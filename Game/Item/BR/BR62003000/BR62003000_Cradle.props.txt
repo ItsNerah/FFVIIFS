@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Item/BR/BR62003000/M_BR62003000_cradle.M_BR62003000_cradle'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Item/BR/BR62003000/M_BR62003000_cradle.M_BR62003000_cradle'
+        MaterialSlotName = lambert4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 79.7024, 94.8685, 161.025, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.22233, Y=0, Z=15.0651 }
+    BoxExtent = { X=37.8518, Y=37.0465, Z=15.6702 }
+    SphereRadius = 42.1548
+}

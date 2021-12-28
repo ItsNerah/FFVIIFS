@@ -1,0 +1,6 @@
+Diffuse=SQ_Water32_002_6_C
+Opacity=SQ_Water32_002_6_M
+Other[0]=T_Noise501
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Monster/CutterMachine/Model/MI_MO10008_BladeDisk.MI_MO10008_BladeDisk'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Monster/CutterMachine/Model/MI_MO10008_BladeDisk.MI_MO10008_BladeDisk'
+        MaterialSlotName = MO10008_BladeDisk
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 65.4308, 93.8515, 113.358, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=31.3748, Y=31.3748, Z=1.97265 }
+    SphereRadius = 31.6418
+}

@@ -1,0 +1,71 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Item/ReliefBox/Model/ReliefBox_C.ReliefBox_C'
+    ReferencedTextures[1] = Texture2D'/Game/Item/ReliefBox/Model/ReliefBox_M.ReliefBox_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=LightRateIntensity }
+                    ParameterInfos[1] = { Name=DitherOpacityMask }
+                    ParameterInfos[2] = { Name=MpcRate }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 1, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Item/ReliefBox/Model/ReliefBox_M.ReliefBox_M'
+        ReferencedTextures[1] = Texture2D'/Game/Item/ReliefBox/Model/ReliefBox_C.ReliefBox_C'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MpcRate, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = ReliefBox_C
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = ReliefBox_M
+    }
+}

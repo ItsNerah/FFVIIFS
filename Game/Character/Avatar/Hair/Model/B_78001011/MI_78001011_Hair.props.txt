@@ -1,0 +1,78 @@
+Parent = MaterialInstanceConstant'/Game/Character/Common/BaseMaterial/MI_AvaterHair_B.MI_AvaterHair_B'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=C }
+        ParameterValue = Texture2D'/Game/Character/Avatar/Hair/Model/B_78001011/78001011_Hair_C.78001011_Hair_C'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Hair_Skin_Mask }
+        ParameterValue = Texture2D'/Game/Character/Avatar/Hair/Model/B_78001011/78001011_Hair_M2.78001011_Hair_M2'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MRE }
+        ParameterValue = Texture2D'/Game/Character/Avatar/Hair/Model/B_78001011/78001011_Hair_M.78001011_Hair_M'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=O }
+        ParameterValue = Texture2D'/Game/Character/Avatar/Hair/Model/B_78001011/78001011_Hair_M.78001011_Hair_M'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=OpacityMask }
+        ParameterValue = Texture2D'/Game/Character/Avatar/Hair/Model/B_78001011/78001011_Hair_mask.78001011_Hair_mask'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = 78001011_Hair_C
+    }
+}

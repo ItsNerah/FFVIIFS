@@ -1,0 +1,9 @@
+Diffuse=T_MaskBlack
+Normal=T_Normal
+Other[0]=AR21001000_SkinBase
+Other[1]=AR21001000_M
+Other[2]=AR21001000_N
+Other[3]=AR21001000_SkinMask
+Other[4]=R_021
+Other[5]=T_MaskWhite
+Other[6]=T_White

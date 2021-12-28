@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_Black.T_Black'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=ColorRate }
+                    ParameterInfos[1] = { Name=LightRateIntensity }
+                    ParameterInfos[2] = { Name=DitherOpacityMask }
+                    ParameterInfos[3] = { Name=MpcRate }
+                    ParameterInfos[4] = { Name=MetaricRate }
+                    ParameterInfos[5] = { Name=RoughnessRateInvert }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=C }
+                    ParameterInfos[2] = { Name=MRE }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.61, 1, 1, 1, 0.2, 0.1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_Black.T_Black'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_Black.T_Black'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_Black.T_Black'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Black.T_Black'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Black.T_Black'
+        Name = MRE
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.61, Name=ColorRate, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=MetaricRate, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=RoughnessRateInvert, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Normal
+    }
+}

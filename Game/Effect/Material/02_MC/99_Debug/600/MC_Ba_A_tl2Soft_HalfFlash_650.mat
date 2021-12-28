@@ -1,0 +1,4 @@
+Diffuse=DefaultDiffuse
+Opacity=T_Light_650
+Other[0]=T_White
+Other[1]=DefaultTexture

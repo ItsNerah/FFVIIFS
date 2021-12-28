@@ -1,0 +1,6 @@
+Diffuse=T_UseTrail600O
+Opacity=T_Noise616O_CL
+Other[0]=T_Noise606O
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

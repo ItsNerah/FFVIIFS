@@ -1,0 +1,6 @@
+Diffuse=SQ_fire_uv_001
+Opacity=T_Smoke202O
+Other[0]=SQ_smk_uv_002
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

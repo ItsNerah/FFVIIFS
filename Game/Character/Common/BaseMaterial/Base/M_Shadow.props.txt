@@ -1,0 +1,179 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=ScanLineScrollSpeed }
+                    ParameterInfos[1] = { Name=ScanLineBalance }
+                    ParameterInfos[2] = { Name=DitherOpacityMask }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=ScanLineIntensity }
+                    ParameterInfos[5] = { Name=InvertFresnelCheapContrastDark }
+                    ParameterInfos[6] = { Name=InvertFresnelCheapContrastBright }
+                    ParameterInfos[7] = { Name=WO_Intensity }
+                    ParameterInfos[8] = { Name=ScanLineTimePeriod }
+                    ParameterInfos[9] = { Name=ScanLineCount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=WhiteOut }
+                    ParameterInfos[1] = { Name=FresnelColor }
+                    ParameterInfos[2] = { Name=ScanLineColor }
+                    ParameterInfos[3] = { Name=BodyColor }
+                    ParameterInfos[4] = { Name=InvertFresnelColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=OpacityMask }
+                    ParameterInfos[2] = { Name=MRO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 0, 0.75, 1, 0, 0, 5, 0, 2, 3, 0.4 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+        Name = OpacityMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = MRO
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=ScanLineScrollSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.75, Name=ScanLineBalance, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=ScanLineIntensity, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 5
+        Name = InvertFresnelCheapContrastDark
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = InvertFresnelCheapContrastBright
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=2, Name=WO_Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=3, Name=ScanLineTimePeriod, Group=None }
+    CollectedScalarParameters[9] = { Value=0.4, Name=ScanLineCount, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WhiteOut
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ScanLineColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BodyColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = InvertFresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskWhite
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Normal
+    }
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Ornament/Bench/Model/MI_Ornament_Bench_A.MI_Ornament_Bench_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Ornament/Bench/Model/MI_Ornament_Bench_B.MI_Ornament_Bench_B'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Ornament/Bench/Model/MI_Ornament_Bench_A.MI_Ornament_Bench_A'
+        MaterialSlotName = M_Common_Bench_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 256.314, 284.354, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Ornament/Bench/Model/MI_Ornament_Bench_B.MI_Ornament_Bench_B'
+        MaterialSlotName = pasted__M_Common_Bench_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 189.084, 281.215, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000244141, Y=0, Z=47.674 }
+    BoxExtent = { X=90.0781, Y=37.7893, Z=48.2976 }
+    SphereRadius = 107.282
+}

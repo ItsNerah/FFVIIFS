@@ -1,0 +1,5 @@
+Diffuse=T_White
+Opacity=SQ_sonic_001
+Other[0]=T_Noise022O
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture

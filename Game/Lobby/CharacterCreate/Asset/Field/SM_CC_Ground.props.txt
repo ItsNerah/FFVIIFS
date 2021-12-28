@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/CharacterCreate/Asset/Field/MI_CC_GroundA.MI_CC_GroundA'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/CharacterCreate/Asset/Field/MI_CC_GroundB.MI_CC_GroundB'
+    Materials[2] = MaterialInstanceConstant'/Game/Lobby/CharacterCreate/Asset/Field/MI_CC_GroundC.MI_CC_GroundC'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/CharacterCreate/Asset/Field/MI_CC_GroundA.MI_CC_GroundA'
+        MaterialSlotName = lambert89
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 21132, 27398.5, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/CharacterCreate/Asset/Field/MI_CC_GroundB.MI_CC_GroundB'
+        MaterialSlotName = lambert90
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/CharacterCreate/Asset/Field/MI_CC_GroundC.MI_CC_GroundC'
+        MaterialSlotName = lambert91
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=4000, Y=4000, Z=5000 }
+    SphereRadius = 7549.83
+}

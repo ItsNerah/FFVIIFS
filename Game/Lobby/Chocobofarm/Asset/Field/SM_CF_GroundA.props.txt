@@ -1,0 +1,110 @@
+Materials[8] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAA_2.MI_CF_GroundAA_2'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAA_1.MI_CF_GroundAA_1'
+    Materials[2] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAC_1.MI_CF_GroundAC_1'
+    Materials[3] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAB_2.MI_CF_GroundAB_2'
+    Materials[4] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAC_2.MI_CF_GroundAC_2'
+    Materials[5] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAB_1.MI_CF_GroundAB_1'
+    Materials[6] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAD_1.MI_CF_GroundAD_1'
+    Materials[7] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAE_P_1.MI_CF_GroundAE_P_1'
+}
+SourceModels[0] = {}
+StaticMaterials[8] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAA_2.MI_CF_GroundAA_2'
+        MaterialSlotName = MI_CF_GroundAA_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 958.316, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAA_1.MI_CF_GroundAA_1'
+        MaterialSlotName = MI_CF_GroundAA_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 995.841, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAC_1.MI_CF_GroundAC_1'
+        MaterialSlotName = MI_CF_GroundAC_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1605.15, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAB_2.MI_CF_GroundAB_2'
+        MaterialSlotName = MI_CF_GroundAB_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1605.23, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAC_2.MI_CF_GroundAC_2'
+        MaterialSlotName = MI_CF_GroundAC_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1605.18, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAB_1.MI_CF_GroundAB_1'
+        MaterialSlotName = MI_CF_GroundAB_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1605.05, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAD_1.MI_CF_GroundAD_1'
+        MaterialSlotName = MI_CF_GroundAD_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 992.198, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_GroundAE_P_1.MI_CF_GroundAE_P_1'
+        MaterialSlotName = MI_CF_GroundAE_P_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 620.911, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2064.43, Y=-6862.38, Z=0.119143 }
+    BoxExtent = { X=14183.9, Y=13574.1, Z=0.880858 }
+    SphereRadius = 16465.9
+}

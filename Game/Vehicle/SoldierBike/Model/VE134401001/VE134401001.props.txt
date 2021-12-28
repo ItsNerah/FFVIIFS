@@ -1,0 +1,131 @@
+Skeleton = Skeleton'/Game/Vehicle/Common/Asset/Vehicle_Bike_Skeleton.Vehicle_Bike_Skeleton'
+bHasVertexColors = false
+LODInfo[3] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[3] =
+        {
+            BonesToRemove[0] = { BoneName=C_Steering_a }
+            BonesToRemove[1] = { BoneName=C_FWheel_a }
+            BonesToRemove[2] = { BoneName=C_RWheel_a }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+MorphTargets[0] = {}
+Sockets[7] =
+{
+    Sockets[0] =
+    {
+        SocketName = Seat0_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=0, Y=-5.43976e-05, Z=-1.3 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[1] =
+    {
+        SocketName = SmokeL_Socket
+        BoneName = C_RWheel_a
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[2] =
+    {
+        SocketName = SmokeR_Socket
+        BoneName = C_RWheel_a
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[3] =
+    {
+        SocketName = AfterFire01_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-133, Y=-50, Z=104 }
+        RelativeRotation =
+        {
+            Yaw = 1119092736
+            Pitch = 1109393408
+            Roll = -1041235968
+        }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[4] =
+    {
+        SocketName = AfterFire02_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-138, Y=-45.5, Z=88.7 }
+        RelativeRotation =
+        {
+            Yaw = 1119092736
+            Pitch = 1109393408
+            Roll = -1041235968
+        }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[5] =
+    {
+        SocketName = AfterFire03_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-133, Y=50, Z=104 }
+        RelativeRotation =
+        {
+            Yaw = 1119092736
+            Pitch = -1038090240
+            Roll = -1041235968
+        }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[6] =
+    {
+        SocketName = AfterFire04_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-138, Y=45.5, Z=88.7 }
+        RelativeRotation =
+        {
+            Yaw = 1119092736
+            Pitch = -1038090240
+            Roll = -1041235968
+        }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[3] = { , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0

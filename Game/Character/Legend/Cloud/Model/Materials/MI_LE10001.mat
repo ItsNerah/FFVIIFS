@@ -1,0 +1,8 @@
+Diffuse=T_MaskBlack
+Normal=T_Normal
+Opacity=LE10001_A
+Other[0]=LE10001_C
+Other[1]=LE10001_M
+Other[2]=LE10001_N
+Other[3]=T_MaskWhite
+Other[4]=T_White

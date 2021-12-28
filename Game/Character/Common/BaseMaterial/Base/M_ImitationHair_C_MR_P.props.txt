@@ -1,0 +1,135 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=LightRateIntensity }
+                    ParameterInfos[1] = { Name=DitherOpacityMask }
+                    ParameterInfos[2] = { Name=MpcRate }
+                    ParameterInfos[3] = { Name=Specular }
+                    ParameterInfos[4] = { Name=WO_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=WhiteOut }
+                    ParameterInfos[1] = { Name=FresnelColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=C }
+                    ParameterInfos[1] = { Name=OpacityMask }
+                    ParameterInfos[2] = { Name=MRO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 1, 1, 0.5, 2 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+        Name = OpacityMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = MRO
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=WO_Intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WhiteOut
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskWhite
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White
+    }
+}

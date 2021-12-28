@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Lobby/Chocobofarm/Asset/Field/M_CF_Middleview.M_CF_Middleview'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Lobby/Chocobofarm/Asset/Field/M_CF_Middleview.M_CF_Middleview'
+        MaterialSlotName = MI_CF_Middleview
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17571.2, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000976562, Y=2936.65, Z=3343.59 }
+    BoxExtent = { X=16136.8, Y=2936.65, Z=3343.59 }
+    SphereRadius = 16739.2
+}

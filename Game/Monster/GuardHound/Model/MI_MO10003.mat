@@ -1,0 +1,6 @@
+Diffuse=T_MaskBlack
+Normal=T_Normal
+Other[0]=MO10003_C
+Other[1]=MO10003_M
+Other[2]=MO10003_N
+Other[3]=T_MaskWhite

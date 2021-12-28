@@ -1,0 +1,116 @@
+Parent = MaterialInstanceConstant'/Game/Character/Common/BaseMaterial/MI_WeVeSkin_R_B.MI_WeVeSkin_R_B'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Pattern_Tiling }
+        ParameterValue = 3.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=C }
+        ParameterValue = Texture2D'/Game/Weapon/AR/21001000/Model/B_AR21001000/AR21001000_SkinBase.AR21001000_SkinBase'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MRE }
+        ParameterValue = Texture2D'/Game/Weapon/AR/21001000/Model/B_AR21001000/AR21001000_M.AR21001000_M'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=N }
+        ParameterValue = Texture2D'/Game/Weapon/AR/21001000/Model/H_AR21001000/AR21001000_N.AR21001000_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=SkinMask }
+        ParameterValue = Texture2D'/Game/Weapon/AR/21001000/Model/H_AR21001000/AR21001000_SkinMask.AR21001000_SkinMask'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=SkinPatternC }
+        ParameterValue = Texture2D'/Game/Character/Common/Texture/R_004.R_004'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SkinColor1 }
+        ParameterValue = { R=1, G=0.395833, B=0.395833, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SkinColor2 }
+        ParameterValue = { R=0.046665, G=0.021219, B=0.01096, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=SkinColor3 }
+        ParameterValue = { R=0.686686, G=0.371238, B=0.003347, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = AR21001000_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = AR21001000_SkinMask
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = R_004
+    }
+}

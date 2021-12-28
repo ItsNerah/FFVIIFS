@@ -1,0 +1,6 @@
+Diffuse=T_Common_Bench_A_C
+Other[0]=T_Common_Bench_A_MRE
+Other[1]=T_Common_Bench_A_F
+Other[2]=T_Mask_008000
+Other[3]=T_MaskBlack
+Other[4]=T_White

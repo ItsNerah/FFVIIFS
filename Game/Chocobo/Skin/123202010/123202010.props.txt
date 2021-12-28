@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Chocobo/Skin/123202010/MI_123202010.MI_123202010'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Chocobo/Skin/123202010/MI_123202010.MI_123202010'
+        MaterialSlotName = MI_123202010
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.178, 74.1576, 109.064, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=7.05608, Z=9.89554 }
+    BoxExtent = { X=21.2332, Y=28.5583, Z=25.461 }
+    SphereRadius = 35.0189
+}

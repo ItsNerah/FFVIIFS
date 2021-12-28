@@ -1,0 +1,114 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_Mask_008000.T_Mask_008000'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=LightRateIntensity }
+                    ParameterInfos[1] = { Name=MpcRate }
+                    ParameterInfos[2] = { Name=Specular }
+                    ParameterInfos[3] = { Name=EmissiveFlickerBase }
+                    ParameterInfos[4] = { Name=EmissiveFlickerThreshold }
+                    ParameterInfos[5] = { Name=EmissiveFlickerRandomSeed }
+                    ParameterInfos[6] = { Name=EmissiveIntensity }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=MRE }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 1, 1, 9.5, 0.5, 0, 0, 1 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Mask_008000.T_Mask_008000'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_Mask_008000.T_Mask_008000'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Mask_008000.T_Mask_008000'
+        Name = MRE
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = BaseColor
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[2] = { Value=9.5, Name=Specular, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=EmissiveFlickerBase, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = EmissiveFlickerThreshold
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = EmissiveFlickerRandomSeed
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=EmissiveIntensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Mask_008000
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White
+    }
+}

@@ -1,0 +1,97 @@
+Skeleton = Skeleton'/Game/Vehicle/Common/Asset/Vehicle_Car_Skeleton.Vehicle_Car_Skeleton'
+bHasVertexColors = false
+LODInfo[3] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[1] = { 0 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[5] =
+        {
+            BonesToRemove[0] = { BoneName=L_Handle_a }
+            BonesToRemove[1] = { BoneName=R_WheelFA_a }
+            BonesToRemove[2] = { BoneName=L_WheelFA_a }
+            BonesToRemove[3] = { BoneName=R_WheelBA_a }
+            BonesToRemove[4] = { BoneName=L_WheelBA_a }
+        }
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+MorphTargets[0] = {}
+Sockets[5] =
+{
+    Sockets[0] =
+    {
+        SocketName = Seat0_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=0, Y=-41.405, Z=55 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[1] =
+    {
+        SocketName = Seat1_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-12, Y=41, Z=58 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[2] =
+    {
+        SocketName = Seat2_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-124, Y=-32, Z=94 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[3] =
+    {
+        SocketName = Seat3_Socket
+        BoneName = C_Body_a
+        RelativeLocation = { X=-124, Y=38, Z=92 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[4] =
+    {
+        SocketName = SmokeR_Socket
+        BoneName = R_WheelBA_a
+        RelativeLocation = { X=0, Y=10, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[3] = { , ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0

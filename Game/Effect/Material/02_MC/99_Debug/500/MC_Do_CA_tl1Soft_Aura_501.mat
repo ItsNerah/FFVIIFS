@@ -1,0 +1,6 @@
+Diffuse=SQ_priz_003
+Opacity=T_Aura700M
+Other[0]=T_LineGradient704
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

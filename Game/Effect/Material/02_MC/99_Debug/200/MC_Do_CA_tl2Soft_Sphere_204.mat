@@ -1,0 +1,6 @@
+Diffuse=SQ_priz_002
+Opacity=SQ_fire_uv_003
+Other[0]=T_Noise022O
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

@@ -1,0 +1,6 @@
+Diffuse=T_Noise702M
+Opacity=T_Noise617O_CL
+Other[0]=T_Noise701M
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=T_White

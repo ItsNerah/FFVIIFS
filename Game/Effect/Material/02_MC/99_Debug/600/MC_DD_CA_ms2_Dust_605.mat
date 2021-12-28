@@ -1,0 +1,4 @@
+Diffuse=T_Dust100
+Opacity=T_Sphere001
+Other[0]=T_Noise010M
+Other[1]=T_White

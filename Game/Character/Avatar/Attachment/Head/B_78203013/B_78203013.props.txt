@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Avatar/Attachment/Head/B_78203013/MI_78203013_HeadAccessory.MI_78203013_HeadAccessory'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Avatar/Attachment/Head/B_78203013/MI_78203013_HeadAccessory.MI_78203013_HeadAccessory'
+        MaterialSlotName = MI_78203013_HeadAccessory
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.6094, 60.2241, 63.7658, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0738516, Y=1.17148, Z=10.1798 }
+    BoxExtent = { X=15.1829, Y=15.9768, Z=8.24857 }
+    SphereRadius = 17.9325
+}

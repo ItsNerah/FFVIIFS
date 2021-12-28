@@ -1,0 +1,124 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+    ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=face_color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=C }
+                    ParameterInfos[2] = { Name=MR }
+                    ParameterInfos[3] = { Name=Mask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.964706, G=0.67451, B=0.152941, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+            TextureValues[3] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_White.T_White'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = MR
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.964706, G=0.67451, B=0.152941, A=1 }
+        Name = face_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskBlack
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Normal
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White
+    }
+}

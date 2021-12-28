@@ -1,0 +1,207 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=FresnelExp }
+                    ParameterInfos[1] = { Name=Speed_X }
+                    ParameterInfos[2] = { Name=Speed_Y }
+                    ParameterInfos[3] = { Name=LightRateIntensity }
+                    ParameterInfos[4] = { Name=FadeDistanceMin }
+                    ParameterInfos[5] = { Name=Pattern_Tiling }
+                    ParameterInfos[6] = { Name=DitherOpacityMask }
+                    ParameterInfos[7] = { Name=MpcRate }
+                    ParameterInfos[8] = { Name=EmissiveMax }
+                    ParameterInfos[9] = { Name=EmissiveDistanceMax }
+                    ParameterInfos[10] = { Name=NomalEdgeRate }
+                    ParameterInfos[11] = { Name=Noise_Intensity }
+                    ParameterInfos[12] = { Name=PI_EmissiveIntensity }
+                    ParameterInfos[13] = { Name=NormalEdgeMax }
+                    ParameterInfos[14] = { Name=WO_Intensity }
+                    ParameterInfos[15] = { Name=FadeDistanceMax }
+                    ParameterInfos[16] = { Name=Pattern_Intensity }
+                    ParameterInfos[17] = { Name=EmissiveDistanceMin }
+                    ParameterInfos[18] = { Name=E_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=WhiteOut }
+                    ParameterInfos[1] = { Name=FresnelColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=SkinPatternC }
+                    ParameterInfos[2] = { Name=C }
+                    ParameterInfos[3] = { Name=SkinMask }
+                    ParameterInfos[4] = { Name=MRE }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 8
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1500
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.06
+            ScalarValues[9] = 3000
+            ScalarValues[10] = 2
+            ScalarValues[11] = 0.1
+            ScalarValues[12] = 0.25
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 2
+            ScalarValues[15] = 4000
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1000
+            ScalarValues[18] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[3] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+            TextureValues[4] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        ReferencedTextures[3] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = SkinPatternC
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+        Name = SkinMask
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = MRE
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=FresnelExp, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Speed_X, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Speed_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[4] = { Value=1500, Name=FadeDistanceMin, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Pattern_Tiling, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[8] = { Value=0.06, Name=EmissiveMax, Group=None }
+    CollectedScalarParameters[9] = { Value=3000, Name=EmissiveDistanceMax, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=NomalEdgeRate, Group=None }
+    CollectedScalarParameters[11] = { Value=0.1, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.25
+        Name = PI_EmissiveIntensity
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.5, Name=NormalEdgeMax, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=WO_Intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=4000, Name=FadeDistanceMax, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Pattern_Intensity, Group=None }
+    CollectedScalarParameters[17] = { Value=1000, Name=EmissiveDistanceMin, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=E_Intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WhiteOut
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskBlack
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_MaskWhite
+    }
+}

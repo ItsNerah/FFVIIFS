@@ -1,0 +1,99 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effect/Texture/10_Noise/T_Noise012M.T_Noise012M'
+    ReferencedTextures[1] = Texture2D'/Game/Effect/Texture/24_use/T_UseKyoSlash001.T_UseKyoSlash001'
+    ReferencedTextures[2] = Texture2D'/Game/Effect/Texture/24_use/T_UseKyoSlash002M.T_UseKyoSlash002M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Distrtion_Speed_V }
+                    ParameterInfos[1] = { Name=Distrtion_Rot45 }
+                    ParameterInfos[2] = { Name=Dissolve_Hardness }
+                    ParameterInfos[3] = { Name=Dissolve_Tile_V }
+                    ParameterInfos[4] = { Name=Distrtion_PowerRandom }
+                    ParameterInfos[5] = { Name=Distrtion_Tiling_V }
+                    ParameterInfos[6] = { Name=Fresnel_Power }
+                    ParameterInfos[7] = { Name=Dissolve_Power }
+                    ParameterInfos[8] = { Name=Distrtion_Speed_U }
+                    ParameterInfos[9] = { Name=Distrtion_Tiling_U }
+                    ParameterInfos[10] = { Name=DistrtionMask_Power }
+                    ParameterInfos[11] = { Name=Dissolve_Tile_U }
+                    ParameterInfos[12] = { Name=Alpha_Dist }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] = { 0, 1, 0, 1, 0, 1, -1, 0, 0, 1, 0, 1, 0.04 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Effect/Texture/24_use/T_UseKyoSlash001.T_UseKyoSlash001'
+        ReferencedTextures[1] = Texture2D'/Game/Effect/Texture/10_Noise/T_Noise012M.T_Noise012M'
+        ReferencedTextures[2] = Texture2D'/Game/Effect/Texture/24_use/T_UseKyoSlash002M.T_UseKyoSlash002M'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Distrtion_Speed_V, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Distrtion_Rot45, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Dissolve_Hardness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Dissolve_Tile_V, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Distrtion_PowerRandom, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Distrtion_Tiling_V, Group=None }
+    CollectedScalarParameters[6] = { Value=-1, Name=Fresnel_Power, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Dissolve_Power, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Distrtion_Speed_U, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Distrtion_Tiling_U, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=DistrtionMask_Power, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Dissolve_Tile_U, Group=None }
+    CollectedScalarParameters[12] = { Value=0.04, Name=Alpha_Dist, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise012M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_UseKyoSlash001
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_UseKyoSlash002M
+    }
+}

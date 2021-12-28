@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Weapon/SP/27005000/Model/H_SP27005000/MI_SP27005000_BladeDisk.MI_SP27005000_BladeDisk'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Weapon/SP/27005000/Model/H_SP27005000/MI_SP27005000_BladeDisk.MI_SP27005000_BladeDisk'
+        MaterialSlotName = MI_SP27405000_BladeDisk_H
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25.0139, 95.5151, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0032196, Y=-0.00568199, Z=0 }
+    BoxExtent = { X=30.5493, Y=30.6945, Z=4.26287 }
+    SphereRadius = 31.0213
+}

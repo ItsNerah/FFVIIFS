@@ -1,0 +1,6 @@
+Diffuse=T_MaskBlack
+Normal=T_Normal
+Other[0]=SU30003_C
+Other[1]=SU30003_N
+Other[2]=SU30003_M
+Other[3]=T_MaskWhite

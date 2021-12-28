@@ -1,0 +1,157 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Color_Speed_V }
+                    ParameterInfos[1] = { Name=Color_Random_V }
+                    ParameterInfos[2] = { Name=UV_NonSelectMeshCenter }
+                    ParameterInfos[3] = { Name=SelectMesh }
+                    ParameterInfos[4] = { Name=Color_Tiling_U }
+                    ParameterInfos[5] = { Name=NumberofMesh }
+                    ParameterInfos[6] = { Name=Environment }
+                    ParameterInfos[7] = { Name=Color_Random_U }
+                    ParameterInfos[8] = { Name=MapDark }
+                    ParameterInfos[9] = { Name=Color_Tiling_V }
+                    ParameterInfos[10] = { Name=UseSelectMesh }
+                    ParameterInfos[11] = { Name=Color_Speed_U }
+                    ParameterInfos[12] = { Name=Use_UorV }
+                    ParameterInfos[13] = { Name=Color_Random }
+                    ParameterInfos[14] = { Name=UV_Tiling }
+                    ParameterInfos[15] = { Name=UV_Width }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Color_Power }
+                    ParameterInfos[1] = { Name=DepthFade_InvertColor }
+                    ParameterInfos[2] = { Name=Alpha_Power }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color_Texture }
+                    ParameterInfos[1] = { Name=SubUV }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 5
+            ScalarValues[15] = 1
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = Color_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = SubUV
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Color_Speed_V, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Color_Random_V, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=UV_NonSelectMeshCenter, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SelectMesh, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Color_Tiling_U, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=NumberofMesh, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Environment, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Color_Random_U, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=MapDark, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Color_Tiling_V, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=UseSelectMesh, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Color_Speed_U, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Use_UorV, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Color_Random, Group=None }
+    CollectedScalarParameters[14] = { Value=5, Name=UV_Tiling, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=UV_Width, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color_Power
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DepthFade_InvertColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Alpha_Power
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

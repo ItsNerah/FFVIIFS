@@ -1,0 +1,5 @@
+Diffuse=T_Noise602O
+Opacity=SQ_elec_uv_02_512
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture
+Other[2]=T_White

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WarehouceD_2.MI_CF_WarehouceD_2'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WarehouceD_1.MI_CF_WarehouceD_1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WarehouceD_2.MI_CF_WarehouceD_2'
+        MaterialSlotName = MI_CF_WarehouceD_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1614.25, 4590.38, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_WarehouceD_1.MI_CF_WarehouceD_1'
+        MaterialSlotName = MI_CF_WarehouceD_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1577.12, 3871.81, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.0306396, Z=461.079 }
+    BoxExtent = { X=650.2, Y=870.969, Z=461.079 }
+    SphereRadius = 1015.66
+}

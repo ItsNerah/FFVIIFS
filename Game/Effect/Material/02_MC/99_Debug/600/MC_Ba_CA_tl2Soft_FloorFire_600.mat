@@ -1,0 +1,6 @@
+Diffuse=SQ_fire_uv_001
+Opacity=T_FireExplosion001O
+Other[0]=T_Noise611O
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

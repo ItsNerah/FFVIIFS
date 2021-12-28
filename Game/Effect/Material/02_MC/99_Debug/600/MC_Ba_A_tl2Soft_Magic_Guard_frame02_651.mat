@@ -1,0 +1,5 @@
+Diffuse=SQ_ice_002
+Opacity=T_UseCube_600
+Other[0]=T_White
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture

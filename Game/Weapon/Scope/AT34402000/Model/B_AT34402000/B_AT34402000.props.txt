@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Weapon/Scope/AT34402000/Model/B_AT34402000/MI_AT34401001.MI_AT34401001'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Weapon/Scope/AT34402000/Model/B_AT34402000/MI_AT34401001.MI_AT34401001'
+        MaterialSlotName = MI_AT34402000_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 41.1542, 49.8475, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.38419e-07, Y=1.72429, Z=-10.6103 }
+    BoxExtent = { X=2.86869, Y=4.57341, Z=24.7586 }
+    SphereRadius = 24.8873
+}

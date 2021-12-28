@@ -1,0 +1,5 @@
+Diffuse=T_LineGradient006
+Opacity=T_FlareLine600O
+Other[0]=T_White
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture

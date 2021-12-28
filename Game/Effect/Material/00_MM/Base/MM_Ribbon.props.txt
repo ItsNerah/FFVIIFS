@@ -1,0 +1,150 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=Color_Speed_V }
+                    ParameterInfos[1] = { Name=Distrtion_Rot45 }
+                    ParameterInfos[2] = { Name=Distrtion_PowerRandom }
+                    ParameterInfos[3] = { Name=TargetAlphaOffset }
+                    ParameterInfos[4] = { Name=Enable Color map Alpha }
+                    ParameterInfos[5] = { Name=Color_Tiling_U }
+                    ParameterInfos[6] = { Name=Rot90 }
+                    ParameterInfos[7] = { Name=Random_V }
+                    ParameterInfos[8] = { Name=Color_Offset_V }
+                    ParameterInfos[9] = { Name=Environment }
+                    ParameterInfos[10] = { Name=TargetAlphaRate }
+                    ParameterInfos[11] = { Name=Color_Offset_U }
+                    ParameterInfos[12] = { Name=SourceAlphaRate }
+                    ParameterInfos[13] = { Name=DistrtionMask_Power }
+                    ParameterInfos[14] = { Name=SourceAlphaOffset }
+                    ParameterInfos[15] = { Name=MapDark }
+                    ParameterInfos[16] = { Name=Color_Tiling_V }
+                    ParameterInfos[17] = { Name=Color_Speed_U }
+                    ParameterInfos[18] = { Name=Random_U }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Power }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 2
+            ScalarValues[11] = 0
+            ScalarValues[12] = 2
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = Color
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Color_Speed_V, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Distrtion_Rot45, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Distrtion_PowerRandom, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=TargetAlphaOffset, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Enable Color map Alpha, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Color_Tiling_U, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Rot90, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Random_V, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Color_Offset_V, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Environment, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=TargetAlphaRate, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Color_Offset_U, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=SourceAlphaRate, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=DistrtionMask_Power, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=SourceAlphaOffset, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=MapDark, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Color_Tiling_V, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Color_Speed_U, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Random_U, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Power
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_White
+    }
+}

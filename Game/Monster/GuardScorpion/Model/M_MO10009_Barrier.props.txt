@@ -1,0 +1,188 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+    ReferencedTextures[1] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_Barrier_C.MO10009_Barrier_C'
+    ReferencedTextures[2] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_Barrier_Mask.MO10009_Barrier_Mask'
+    ReferencedTextures[3] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_C.MO10009_C'
+    ReferencedTextures[4] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_M.MO10009_M'
+    ReferencedTextures[5] = Texture2D'/Game/Monster/GuardScorpion/Model/UVscroll_noise.UVscroll_noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Speed_X }
+                    ParameterInfos[1] = { Name=Speed_Y }
+                    ParameterInfos[2] = { Name=LightRateIntensity }
+                    ParameterInfos[3] = { Name=DitherOpacityMask }
+                    ParameterInfos[4] = { Name=MpcRate }
+                    ParameterInfos[5] = { Name=EffectIntensity }
+                    ParameterInfos[6] = { Name=Eye_Emissive_strength }
+                    ParameterInfos[7] = { Name=Noise_Intensity }
+                    ParameterInfos[8] = { Name=WO_Intensity }
+                    ParameterInfos[9] = { Name=Noise_Tiling }
+                    ParameterInfos[10] = { Name=Barrier_Emissive_strength }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=WhiteOut }
+                    ParameterInfos[1] = { Name=Barrier_color }
+                    ParameterInfos[2] = { Name=Eye_color }
+                    ParameterInfos[3] = { Name=FresnelColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=C }
+                    ParameterInfos[2] = { Name=Tex_UVanime }
+                    ParameterInfos[3] = { Name=MRE }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0.1, 0, 1, 1, 1, 0, 0, 0.5, 0.1, 1, 0 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=0.043735, G=0.520996, B=0.428691, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0.0703601, G=1, B=0.533277, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_C.MO10009_C'
+            TextureValues[2] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_Barrier_C.MO10009_Barrier_C'
+            TextureValues[3] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_M.MO10009_M'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_C.MO10009_C'
+        ReferencedTextures[1] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_M.MO10009_M'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        ReferencedTextures[3] = Texture2D'/Game/Monster/GuardScorpion/Model/UVscroll_noise.UVscroll_noise'
+        ReferencedTextures[4] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_Barrier_C.MO10009_Barrier_C'
+        ReferencedTextures[5] = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_Barrier_Mask.MO10009_Barrier_Mask'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_C.MO10009_C'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_Barrier_C.MO10009_Barrier_C'
+        Name = Tex_UVanime
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Monster/GuardScorpion/Model/MO10009_M.MO10009_M'
+        Name = MRE
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Speed_X, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Speed_Y, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=EffectIntensity, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Eye_Emissive_strength, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=WO_Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Noise_Tiling, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0
+        Name = Barrier_Emissive_strength
+        Group = None
+    }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.043735, G=0.520996, B=0.428691, A=1 }
+        Name = WhiteOut
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Barrier_color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Eye_color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.0703601, G=1, B=0.533277, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = MO10009_C
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = MO10009_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Normal
+    }
+}

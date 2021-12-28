@@ -1,0 +1,6 @@
+Diffuse=T_Noise703M
+Opacity=T_Smoke203O
+Other[0]=T_Noise600O
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

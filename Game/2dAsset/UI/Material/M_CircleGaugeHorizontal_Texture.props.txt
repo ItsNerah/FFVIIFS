@@ -1,0 +1,76 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/2dAsset/BaseMaterial/dummy.dummy'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=TextureUV_U }
+                    ParameterInfos[1] = { Name=Offset }
+                    ParameterInfos[2] = { Name=VectorToRadialUV_V }
+                    ParameterInfos[3] = { Name=TextureUV_V }
+                    ParameterInfos[4] = { Name=VectorToRadialUV_U }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=BaseTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 1, 0.22619, 1, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/2dAsset/BaseMaterial/dummy.dummy'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/2dAsset/BaseMaterial/dummy.dummy'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/2dAsset/BaseMaterial/dummy.dummy'
+        Name = BaseTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=TextureUV_U, Group=None }
+    CollectedScalarParameters[1] = { Value=0.22619, Name=Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=VectorToRadialUV_V, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=TextureUV_V, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=VectorToRadialUV_U, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

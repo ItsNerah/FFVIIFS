@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_BigPipeL.MI_CF_BigPipeL'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_BigPipeL.MI_CF_BigPipeL'
+        MaterialSlotName = MI_CF_BigPipeL
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1624.88, 6068.34, 3440, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-763.004, Y=708.826, Z=356.184 }
+    BoxExtent = { X=961.004, Y=961.004, Z=456.184 }
+    SphereRadius = 1300.22
+}

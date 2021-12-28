@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Emote/Model/EM_Aerithflower/H_EM_Aerithflower/MI_EM_Aerithflower.MI_EM_Aerithflower'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Emote/Model/EM_Aerithflower/H_EM_Aerithflower/MI_EM_Aerithflower.MI_EM_Aerithflower'
+        MaterialSlotName = MI_EM_Aerithflower_H
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.7798, 22.3637, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.494132, Y=4.6962, Z=-2.33645 }
+    BoxExtent = { X=4.70663, Y=11.2237, Z=4.9343 }
+    SphereRadius = 11.5534
+}

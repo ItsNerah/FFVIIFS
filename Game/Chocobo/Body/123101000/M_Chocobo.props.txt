@@ -1,0 +1,153 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+    ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=LightRateIntensity }
+                    ParameterInfos[1] = { Name=DitherOpacityMask }
+                    ParameterInfos[2] = { Name=MpcRate }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=eye_color }
+                    ParameterInfos[1] = { Name=face_color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=N }
+                    ParameterInfos[1] = { Name=C }
+                    ParameterInfos[2] = { Name=Face_Eye_Mask }
+                    ParameterInfos[3] = { Name=MR }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 1, 1, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.1395, G=0.578125, B=0.514626, A=1 }
+            VectorValues[1] = { R=0.964706, G=0.67451, B=0.152941, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[2] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+            TextureValues[3] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        ReferencedTextures[1] = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        ReferencedTextures[2] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        ReferencedTextures[3] = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_Normal.T_Normal'
+        Name = N
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = C
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskWhite.T_MaskWhite'
+        Name = Face_Eye_Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_MaskBlack.T_MaskBlack'
+        Name = MR
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MpcRate, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1395, G=0.578125, B=0.514626, A=1 }
+        Name = eye_color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.964706, G=0.67451, B=0.152941, A=1 }
+        Name = face_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskBlack
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MaskWhite
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White
+    }
+}

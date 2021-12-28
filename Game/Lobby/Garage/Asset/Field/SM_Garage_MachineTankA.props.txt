@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineTankA.MI_Garage_MachineTankA'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineTankA.MI_Garage_MachineTankA'
+        MaterialSlotName = MI_Garage_MachineTankA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1477.3, 2005.7, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.09184, Z=137.067 }
+    BoxExtent = { X=287.744, Y=137.454, Z=137.067 }
+    SphereRadius = 346.499
+}

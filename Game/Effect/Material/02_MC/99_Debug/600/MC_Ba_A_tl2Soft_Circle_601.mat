@@ -1,0 +1,5 @@
+Diffuse=DefaultDiffuse
+Opacity=T_Circle002
+Other[0]=T_Noise003
+Other[1]=T_White
+Other[2]=DefaultTexture

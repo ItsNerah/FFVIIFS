@@ -1,0 +1,6 @@
+Diffuse=T_Dust607O
+Opacity=T_UseSymbol_601O
+Other[0]=T_Noise203
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White

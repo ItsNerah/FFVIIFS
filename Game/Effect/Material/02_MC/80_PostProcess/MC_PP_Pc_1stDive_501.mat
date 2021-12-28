@@ -1,0 +1,4 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=T_Smoke512
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_White

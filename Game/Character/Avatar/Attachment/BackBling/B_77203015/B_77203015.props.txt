@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Character/Avatar/Attachment/BackBling/B_77203015/MI_77203015_BackAccessory.MI_77203015_BackAccessory'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Character/Avatar/Attachment/BackBling/B_77203015/MI_77203015_BackAccessory.MI_77203015_BackAccessory'
+        MaterialSlotName = MI_77203015_BackAccessory
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 74.6407, 94.1247, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.32166, Y=-25.9599, Z=3.46214 }
+    BoxExtent = { X=20.3664, Y=10.8475, Z=21.4106 }
+    SphereRadius = 28.4929
+}

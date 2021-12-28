@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_TelephonePole.MI_CF_TelephonePole'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_TelephonePole.MI_CF_TelephonePole'
+        MaterialSlotName = MI_CF_TelephonePole
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 400.397, 6201.86, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-60.1866, Y=23.2217, Z=649.041 }
+    BoxExtent = { X=127.305, Y=33.7422, Z=660.006 }
+    SphereRadius = 663.921
+}

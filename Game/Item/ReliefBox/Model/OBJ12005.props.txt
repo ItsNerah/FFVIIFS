@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Item/ReliefBox/Model/MI_OBJ12005.MI_OBJ12005'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Item/ReliefBox/Model/MI_OBJ12005.MI_OBJ12005'
+        MaterialSlotName = Ml_77303030_BackAccessory
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 170.822, 133.646, 298.045, 0 }
+        }
+    }
+}
+Sockets[1] = {  }
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.13115, Z=39.6066 }
+    BoxExtent = { X=36.607, Y=35.7475, Z=42.9761 }
+    SphereRadius = 59.0925
+}

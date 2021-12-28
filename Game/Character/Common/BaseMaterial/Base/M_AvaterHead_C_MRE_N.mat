@@ -1,0 +1,5 @@
+Diffuse=DefaultDiffuse
+Normal=T_Normal
+Other[0]=T_MaskBlack
+Other[1]=T_MaskWhite
+Other[2]=T_White

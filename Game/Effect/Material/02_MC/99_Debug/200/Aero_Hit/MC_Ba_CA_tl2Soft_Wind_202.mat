@@ -1,0 +1,5 @@
+Diffuse=SQ_sonic_001
+Opacity=T_LineGradient002
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture
+Other[2]=T_White

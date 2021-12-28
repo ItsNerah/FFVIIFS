@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_PrefabHutB_1.MI_CF_PrefabHutB_1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_PrefabHutB_1.MI_CF_PrefabHutB_1'
+        MaterialSlotName = MI_CF_PrefabHutB_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3022.42, 3539.81, 3309.46, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-201.063, Y=-330.086, Z=240.967 }
+    BoxExtent = { X=562.809, Y=330.113, Z=339.503 }
+    SphereRadius = 731.583
+}

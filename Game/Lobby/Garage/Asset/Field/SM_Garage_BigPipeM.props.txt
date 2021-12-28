@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_BigPipeM.MI_Garage_BigPipeM'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_BigPipeM.MI_Garage_BigPipeM'
+        MaterialSlotName = M_MS_Common_BigPipeM_C
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 894.067, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=987.258, Y=0, Z=329.17 }
+    BoxExtent = { X=1112.08, Y=124.825, Z=829.17 }
+    SphereRadius = 1373.71
+}

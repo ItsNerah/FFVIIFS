@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Item/ReliefBox/Model/M_ReliefBox.M_ReliefBox'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Item/ReliefBox/Model/M_ReliefBox.M_ReliefBox'
+        MaterialSlotName = OB40006
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 75.1225, 92.3626, 92.3626, 284.21 }
+        }
+    }
+}
+Sockets[1] = {  }
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=30.054 }
+    BoxExtent = { X=33.307, Y=33.307, Z=33.307 }
+    SphereRadius = 52.0552
+}

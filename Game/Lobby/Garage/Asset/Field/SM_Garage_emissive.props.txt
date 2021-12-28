@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineC_2.MI_Garage_MachineC_2'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineC_2.MI_Garage_MachineC_2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineC_2.MI_Garage_MachineC_2'
+        MaterialSlotName = lambert9
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Garage/Asset/Field/MI_Garage_MachineC_2.MI_Garage_MachineC_2'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 371.638, 44.5654, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2670.49, Y=2063.03, Z=1028.78 }
+    BoxExtent = { X=1422.64, Y=761.169, Z=637.268 }
+    SphereRadius = 1732
+}

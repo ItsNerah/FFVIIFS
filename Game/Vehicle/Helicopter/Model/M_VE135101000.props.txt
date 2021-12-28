@@ -1,0 +1,106 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Vehicle/Helicopter/Model/VE135101000_C.VE135101000_C'
+    ReferencedTextures[1] = Texture2D'/Game/Vehicle/Helicopter/Model/VE135101000_M.VE135101000_M'
+    ReferencedTextures[2] = Texture2D'/Game/Vehicle/Helicopter/Model/VE135101000_N.VE135101000_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=LightRateIntensity }
+                    ParameterInfos[1] = { Name=DitherOpacityMask }
+                    ParameterInfos[2] = { Name=MpcRate }
+                    ParameterInfos[3] = { Name=WO_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=WhiteOut }
+                    ParameterInfos[1] = { Name=FresnelColor }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 1, 1, 1, 2 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Vehicle/Helicopter/Model/VE135101000_C.VE135101000_C'
+        ReferencedTextures[1] = Texture2D'/Game/Vehicle/Helicopter/Model/VE135101000_M.VE135101000_M'
+        ReferencedTextures[2] = Texture2D'/Game/Vehicle/Helicopter/Model/VE135101000_N.VE135101000_N'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=LightRateIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DitherOpacityMask, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=MpcRate, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=WO_Intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WhiteOut
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = VE135101000_C
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = VE135101000_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = VE135101000_N
+    }
+}

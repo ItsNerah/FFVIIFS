@@ -1,0 +1,8 @@
+Diffuse=T_MaskBlack
+Normal=T_Normal
+Other[0]=STG25002000_SkinBase
+Other[1]=STG25002000_M
+Other[2]=STG25002000_SkinMask
+Other[3]=R_036
+Other[4]=T_MaskWhite
+Other[5]=T_White

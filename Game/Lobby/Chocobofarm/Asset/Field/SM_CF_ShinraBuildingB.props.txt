@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_2.MI_CF_ShinraBuildingB_2'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_3.MI_CF_ShinraBuildingB_3'
+    Materials[2] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_1.MI_CF_ShinraBuildingB_1'
+    Materials[3] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_5.MI_CF_ShinraBuildingB_5'
+    Materials[4] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_4.MI_CF_ShinraBuildingB_4'
+    Materials[5] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_6.MI_CF_ShinraBuildingB_6'
+    Materials[6] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_7.MI_CF_ShinraBuildingB_7'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_2.MI_CF_ShinraBuildingB_2'
+        MaterialSlotName = MI_CF_ShinraBuildingB_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1665.7, 20719.8, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_3.MI_CF_ShinraBuildingB_3'
+        MaterialSlotName = MI_CF_ShinraBuildingB_3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1572.33, 20605.2, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_1.MI_CF_ShinraBuildingB_1'
+        MaterialSlotName = MI_CF_ShinraBuildingB_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1302.34, 20247.8, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_5.MI_CF_ShinraBuildingB_5'
+        MaterialSlotName = MI_CF_ShinraBuildingB_5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1648.4, 20748.5, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_4.MI_CF_ShinraBuildingB_4'
+        MaterialSlotName = MI_CF_ShinraBuildingB_4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1867.63, 20696.1, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_6.MI_CF_ShinraBuildingB_6'
+        MaterialSlotName = MI_CF_ShinraBuildingB_6
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1486.88, 20649.4, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ShinraBuildingB_7.MI_CF_ShinraBuildingB_7'
+        MaterialSlotName = MI_CF_ShinraBuildingB_7
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113.089, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5000, Y=4420.24, Z=6015.37 }
+    BoxExtent = { X=9083.68, Y=7437.81, Z=6699.41 }
+    SphereRadius = 13517.3
+}

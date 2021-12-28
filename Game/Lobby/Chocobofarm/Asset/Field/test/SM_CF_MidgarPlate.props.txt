@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MidgarPlate_A.MI_CF_MidgarPlate_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MidgarPlate_B.MI_CF_MidgarPlate_B'
+    Materials[2] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MidgarPlate_E.MI_CF_MidgarPlate_E'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MidgarPlate_A.MI_CF_MidgarPlate_A'
+        MaterialSlotName = MI_CF_MidgarPlate_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 380062, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MidgarPlate_B.MI_CF_MidgarPlate_B'
+        MaterialSlotName = MI_CF_MidgarPlate_B
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 223363, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MidgarPlate_E.MI_CF_MidgarPlate_E'
+        MaterialSlotName = MI_CF_MidgarPlate_E
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 139236, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=36133.3 }
+    BoxExtent = { X=576398, Y=576398, Z=8238.14 }
+    SphereRadius = 578880
+}

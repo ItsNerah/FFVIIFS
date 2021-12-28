@@ -1,0 +1,278 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[59] =
+                {
+                    ParameterInfos[0] = { Name=Distrtion_Speed_V }
+                    ParameterInfos[1] = { Name=Alpha_Speed_U }
+                    ParameterInfos[2] = { Name=Color_Speed_V }
+                    ParameterInfos[3] = { Name=WPO_Random_U }
+                    ParameterInfos[4] = { Name=Distrtion_Rot45 }
+                    ParameterInfos[5] = { Name=WPO_Weight }
+                    ParameterInfos[6] = { Name=Alpha_Offset_U }
+                    ParameterInfos[7] = { Name=Alpha_Random_U }
+                    ParameterInfos[8] = { Name=Color_Random_V }
+                    ParameterInfos[9] = { Name=UV_NonSelectMeshCenter }
+                    ParameterInfos[10] = { Name=Distrtion_PowerRandom }
+                    ParameterInfos[11] = { Name=Distrtion_Random_V }
+                    ParameterInfos[12] = { Name=SelectMesh }
+                    ParameterInfos[13] = { Name=Distrtion_Random_U }
+                    ParameterInfos[14] = { Name=WPO_Speed_U }
+                    ParameterInfos[15] = { Name=Color_Distrtion }
+                    ParameterInfos[16] = { Name=Enable Color map Alpha }
+                    ParameterInfos[17] = { Name=WPO_Tiling_U }
+                    ParameterInfos[18] = { Name=Color_Tiling_U }
+                    ParameterInfos[19] = { Name=Distrtion_Tiling_V }
+                    ParameterInfos[20] = { Name=Color_Weight }
+                    ParameterInfos[21] = { Name=Alpha_Distrtion }
+                    ParameterInfos[22] = { Name=ColorMask_PowerV }
+                    ParameterInfos[23] = { Name=NumberofMesh }
+                    ParameterInfos[24] = { Name=WPO_Speed_V }
+                    ParameterInfos[25] = { Name=Color_Offset_V }
+                    ParameterInfos[26] = { Name=WPOMask_PowerV }
+                    ParameterInfos[27] = { Name=WPOMask_PowerU }
+                    ParameterInfos[28] = { Name=Environment }
+                    ParameterInfos[29] = { Name=Color_Offset_U }
+                    ParameterInfos[30] = { Name=Distrtion_Speed_U }
+                    ParameterInfos[31] = { Name=Distrtion_Offset_U }
+                    ParameterInfos[32] = { Name=Distrtion_Tiling_U }
+                    ParameterInfos[33] = { Name=Color_Rot90 }
+                    ParameterInfos[34] = { Name=Color_Random_U }
+                    ParameterInfos[35] = { Name=Alpha_Offset_V }
+                    ParameterInfos[36] = { Name=WPO_Random_V }
+                    ParameterInfos[37] = { Name=DistrtionMask_Power }
+                    ParameterInfos[38] = { Name=Alpha_Random }
+                    ParameterInfos[39] = { Name=Alpha_Tiling_V }
+                    ParameterInfos[40] = { Name=WPO_Random }
+                    ParameterInfos[41] = { Name=Alpha_Rot90 }
+                    ParameterInfos[42] = { Name=Alpha_Power }
+                    ParameterInfos[43] = { Name=ColorMask_PowerU }
+                    ParameterInfos[44] = { Name=MapDark }
+                    ParameterInfos[45] = { Name=Color_Tiling_V }
+                    ParameterInfos[46] = { Name=UseSelectMesh }
+                    ParameterInfos[47] = { Name=Alpha_Speed_V }
+                    ParameterInfos[48] = { Name=Alpha_Tiling_U }
+                    ParameterInfos[49] = { Name=Distrtion_Random }
+                    ParameterInfos[50] = { Name=WPO_Tiling_V }
+                    ParameterInfos[51] = { Name=Color_Speed_U }
+                    ParameterInfos[52] = { Name=Distrtion_Offset_V }
+                    ParameterInfos[53] = { Name=LookDistrtion }
+                    ParameterInfos[54] = { Name=Use_UorV }
+                    ParameterInfos[55] = { Name=Color_Random }
+                    ParameterInfos[56] = { Name=UV_Tiling }
+                    ParameterInfos[57] = { Name=Alpha_Random_V }
+                    ParameterInfos[58] = { Name=UV_Width }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Color_Power }
+                    ParameterInfos[1] = { Name=Color_UnderColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Alpha_Texture }
+                    ParameterInfos[1] = { Name=Color_Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[59] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 1
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0
+            ScalarValues[36] = 1
+            ScalarValues[37] = 0
+            ScalarValues[38] = 0
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 0
+            ScalarValues[42] = 0
+            ScalarValues[43] = 0
+            ScalarValues[44] = 0
+            ScalarValues[45] = 1
+            ScalarValues[46] = 0
+            ScalarValues[47] = 0
+            ScalarValues[48] = 1
+            ScalarValues[49] = 1
+            ScalarValues[50] = 1
+            ScalarValues[51] = 0
+            ScalarValues[52] = 0
+            ScalarValues[53] = 0
+            ScalarValues[54] = 0
+            ScalarValues[55] = 1
+            ScalarValues[56] = 5
+            ScalarValues[57] = 1
+            ScalarValues[58] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = Alpha_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = Color_Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[59] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Distrtion_Speed_V, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Alpha_Speed_U, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Color_Speed_V, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=WPO_Random_U, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Distrtion_Rot45, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WPO_Weight, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Alpha_Offset_U, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Alpha_Random_U, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Color_Random_V, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=UV_NonSelectMeshCenter, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Distrtion_PowerRandom, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Distrtion_Random_V, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=SelectMesh, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Distrtion_Random_U, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=WPO_Speed_U, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Color_Distrtion, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Enable Color map Alpha, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=WPO_Tiling_U, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Color_Tiling_U, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Distrtion_Tiling_V, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Color_Weight, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Alpha_Distrtion, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=ColorMask_PowerV, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=NumberofMesh, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=WPO_Speed_V, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=Color_Offset_V, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=WPOMask_PowerV, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=WPOMask_PowerU, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=Environment, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=Color_Offset_U, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=Distrtion_Speed_U, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=Distrtion_Offset_U, Group=None }
+    CollectedScalarParameters[32] = { Value=1, Name=Distrtion_Tiling_U, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Color_Rot90, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Color_Random_U, Group=None }
+    CollectedScalarParameters[35] = { Value=0, Name=Alpha_Offset_V, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=WPO_Random_V, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=DistrtionMask_Power, Group=None }
+    CollectedScalarParameters[38] = { Value=0, Name=Alpha_Random, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=Alpha_Tiling_V, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=WPO_Random, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=Alpha_Rot90, Group=None }
+    CollectedScalarParameters[42] = { Value=0, Name=Alpha_Power, Group=None }
+    CollectedScalarParameters[43] = { Value=0, Name=ColorMask_PowerU, Group=None }
+    CollectedScalarParameters[44] = { Value=0, Name=MapDark, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=Color_Tiling_V, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=UseSelectMesh, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=Alpha_Speed_V, Group=None }
+    CollectedScalarParameters[48] = { Value=1, Name=Alpha_Tiling_U, Group=None }
+    CollectedScalarParameters[49] = { Value=1, Name=Distrtion_Random, Group=None }
+    CollectedScalarParameters[50] = { Value=1, Name=WPO_Tiling_V, Group=None }
+    CollectedScalarParameters[51] = { Value=0, Name=Color_Speed_U, Group=None }
+    CollectedScalarParameters[52] = { Value=0, Name=Distrtion_Offset_V, Group=None }
+    CollectedScalarParameters[53] = { Value=0, Name=LookDistrtion, Group=None }
+    CollectedScalarParameters[54] = { Value=0, Name=Use_UorV, Group=None }
+    CollectedScalarParameters[55] = { Value=1, Name=Color_Random, Group=None }
+    CollectedScalarParameters[56] = { Value=5, Name=UV_Tiling, Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=Alpha_Random_V, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=UV_Width, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color_Power
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color_UnderColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MainPillar_A_TrussA.MI_CF_MainPillar_A_TrussA'
+    Materials[1] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MainPillar_A_PipeA.MI_CF_MainPillar_A_PipeA'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MainPillar_A_TrussA.MI_CF_MainPillar_A_TrussA'
+        MaterialSlotName = MI_CF_MainPillar_A_TrussA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26368, 380049, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/test/MI_CF_MainPillar_A_PipeA.MI_CF_MainPillar_A_PipeA'
+        MaterialSlotName = MI_CF_MainPillar_A_PipeA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 15169.3, 217889, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=500000, Y=503803, Z=504830 }
+    BoxExtent = { X=559646, Y=555843, Z=538072 }
+    SphereRadius = 954822
+}

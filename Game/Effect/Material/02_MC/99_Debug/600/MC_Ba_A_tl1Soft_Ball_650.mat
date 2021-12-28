@@ -1,0 +1,4 @@
+Diffuse=T_Black
+Opacity=T_White
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture

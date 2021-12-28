@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ClothCoverA.MI_CF_ClothCoverA'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Lobby/Chocobofarm/Asset/Field/MI_CF_ClothCoverA.MI_CF_ClothCoverA'
+        MaterialSlotName = MI_CF_ClothCoverA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 463.559, 463.559, 436.827, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.24762, Y=-2.60753, Z=75.8669 }
+    BoxExtent = { X=159.6, Y=163.284, Z=76.3003 }
+    SphereRadius = 211.131
+}

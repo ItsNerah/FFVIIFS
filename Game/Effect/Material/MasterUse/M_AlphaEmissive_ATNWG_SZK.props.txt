@@ -1,0 +1,143 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[18] =
+                {
+                    ParameterInfos[0] = { Name=Alpha_Speed_U }
+                    ParameterInfos[1] = { Name=Alpha_Offset_U }
+                    ParameterInfos[2] = { Name=Alpha_Rotate }
+                    ParameterInfos[3] = { Name=Emissive_Tile_U }
+                    ParameterInfos[4] = { Name=Emissive_UseDynamicTime }
+                    ParameterInfos[5] = { Name=Alpha_Tile_V }
+                    ParameterInfos[6] = { Name=Emissive_Random }
+                    ParameterInfos[7] = { Name=ChangeAlphaEmissive }
+                    ParameterInfos[8] = { Name=Alpha_UseDynamicTime }
+                    ParameterInfos[9] = { Name=Use Emissive map Alpha }
+                    ParameterInfos[10] = { Name=Alpha_Offset_V }
+                    ParameterInfos[11] = { Name=Alpha_Tile_U }
+                    ParameterInfos[12] = { Name=Alpha_Random }
+                    ParameterInfos[13] = { Name=Emissive_Tile_V }
+                    ParameterInfos[14] = { Name=Emissive_Speed_U }
+                    ParameterInfos[15] = { Name=Emissive_Speed_V }
+                    ParameterInfos[16] = { Name=Alpha_Power }
+                    ParameterInfos[17] = { Name=Alpha_Speed_V }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Emissive_Tex }
+                    ParameterInfos[1] = { Name=Alpha_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[18] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0
+        }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+            TextureValues[1] = Texture2D'/Game/Common/Texture/T_White.T_White'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Common/Texture/T_White.T_White'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = Emissive_Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Common/Texture/T_White.T_White'
+        Name = Alpha_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Alpha_Speed_U, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Alpha_Offset_U, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Alpha_Rotate, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Emissive_Tile_U, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Emissive_UseDynamicTime
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=Alpha_Tile_V, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Emissive_Random, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=ChangeAlphaEmissive, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Alpha_UseDynamicTime, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Use Emissive map Alpha, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Alpha_Offset_V, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Alpha_Tile_U, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Alpha_Random, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Emissive_Tile_V, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Emissive_Speed_U, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Emissive_Speed_V, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Alpha_Power, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Alpha_Speed_V, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White
+    }
+}

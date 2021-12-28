@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Ornament/Chocobo/Model/MI_Ornament_chocobo_B.MI_Ornament_chocobo_B'
+    Materials[1] = MaterialInstanceConstant'/Game/Ornament/Chocobo/Model/MI_Ornament_chocobo_A.MI_Ornament_chocobo_A'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Ornament/Chocobo/Model/MI_Ornament_chocobo_B.MI_Ornament_chocobo_B'
+        MaterialSlotName = M_MG_Ornament_ChocoboBusStop_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 372.246, 372.246, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Ornament/Chocobo/Model/MI_Ornament_chocobo_A.MI_Ornament_chocobo_A'
+        MaterialSlotName = pasted__M_MG_Ornament_ChocoboBusStop_A
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 286.89, 262.51, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00119019, Y=0, Z=225.388 }
+    BoxExtent = { X=54.1115, Y=81.4182, Z=236.388 }
+    SphereRadius = 242.794
+}

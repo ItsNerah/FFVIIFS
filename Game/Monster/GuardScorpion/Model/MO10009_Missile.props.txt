@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Monster/GuardScorpion/Model/MI_MO10009_Missile.MI_MO10009_Missile'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Monster/GuardScorpion/Model/MI_MO10009_Missile.MI_MO10009_Missile'
+        MaterialSlotName = M_MO10009_Missile
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 60.5999, 62.9328, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00798225, Y=0, Z=5.72205e-06 }
+    BoxExtent = { X=12.0711, Y=26.3363, Z=12.0711 }
+    SphereRadius = 28.5932
+}

@@ -1,0 +1,4 @@
+Diffuse=T_White
+Opacity=T_LineGradient503CL
+Other[0]=DefaultDiffuse
+Other[1]=DefaultTexture

@@ -1,0 +1,6 @@
+Diffuse=T_Dust602O
+Opacity=T_LineGradient602O
+Other[0]=T_Noise003
+Other[1]=DefaultDiffuse
+Other[2]=DefaultTexture
+Other[3]=T_White
